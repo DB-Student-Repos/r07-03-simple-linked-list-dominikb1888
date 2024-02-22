@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Simple Linked List Test",
+      "setup": "sudo apt-get install rustc cargo",
+      "run": "cargo test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
