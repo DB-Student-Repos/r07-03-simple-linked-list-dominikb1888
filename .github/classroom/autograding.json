@@ -1,12 +1,12 @@
 {
   "tests": [
     {
-      "name": "Simple Linked List Test",
-      "setup": "sudo apt-get install rustc cargo",
+      "name": "rust",
+      "setup": "sudo apt-get update && sudo apt-get install rustc cargo --fix-missing",
       "run": "cargo test",
       "input": "",
       "output": "",
-      "comparison": "included",
+      "comparison": "exact",
       "timeout": 10,
       "points": 5
     }
